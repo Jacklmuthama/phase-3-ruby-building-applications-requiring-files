@@ -1,5 +1,7 @@
 # Something is missing here
 
+require_relative './plant'
+
 class Garden
   attr_accessor :name
 
@@ -13,6 +15,8 @@ class Garden
     end
   end
 end
+
+
 
 lawn = Garden.new(name: 'Front Lawn')
 
